@@ -1,4 +1,9 @@
-﻿using System;
+﻿/**********************************************************************/
+/* This file sets up the Main Page of the App                         */
+/* This file will also decribe what the App will do on the following: */
+/*      App Start Up, Sleep, and Resume                               */
+/**********************************************************************/
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 

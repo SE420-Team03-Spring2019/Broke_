@@ -1,4 +1,10 @@
-﻿using Broke_v01.MenuItem;
+﻿/*********************************************************************************/
+/* This file describes what happens after an action by the user on the Main Page */
+/*  Creation of the menu and navigation is done in this file                     */
+/*********************************************************************************/
+
+
+using Broke_v01.MenuItem;
 using Broke_v01.Pages;
 using System;
 using System.Collections.Generic;

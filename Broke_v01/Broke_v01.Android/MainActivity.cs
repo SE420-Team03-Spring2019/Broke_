@@ -1,5 +1,12 @@
-﻿using System;
+﻿
+/************************************************/
+/* First Activity When the App is opened        */
+/*  This sets the application icon, theme,      */
+/*  and layout                                  */         
+/*  This file loads the app                     */                
+/************************************************/
 
+using System;
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
