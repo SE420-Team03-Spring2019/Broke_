@@ -1,0 +1,31 @@
+C# Style Guide -- Team 03 - SE420/SE310 
+
+This File Contains the Style guide used for the creation of this project solution. 
+We used the microsoft C# Coding Conventions and Programming Guide as a base for this guide.
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
+ 
+
+ -- Naming --
+	
+	Use camel case where applicable.
+	Variable names shouold describe what is contained.
+	No single letter variables.
+	Don't change the names of variables in the microsoft generated code.
+
+
+ -- Layout --
+
+	Follow default Visual Studio settings (i.e. indenting, tabs new lines).
+	Indents should be one tab.
+	One statement or declaration per line. 
+	Continuation lines should be indented one tab. 
+	{} should each have their own line.
+
+	Insert blank lines between variables, functions, and logical blocks.
+
+ -- Commenting --
+
+	Each file should have its own file at the top indicatinng who is responsible and it purpose. 
+	use // for single line comments and /* */ for multi line comments.
+
+
