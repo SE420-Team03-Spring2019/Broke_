@@ -6,8 +6,9 @@ namespace Broke_v01.MenuItem
 {
     public class MasterPageItem
     {
-        public string Title { get; set; }
-        public string Icon { get; set; }
-        public Type TargetType { get; set; }
+        // Used in MainPage.xaml.cs to define each menu item
+        public string Title { get; set; }           // Name shown on menu
+        public string Icon { get; set; }            // Icon on side of menu title
+        public Type TargetType { get; set; }        // What opens when a menu optioni is selected
     }
 }

@@ -1,51 +1,40 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<!-- This is the  binded code to MainPage.xaml.cs which creates the menu -->
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Master Detail is the menu page style -->
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Broke_v01.MainPage"
              xmlns:pages="clr-namespace:Broke_v01">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu"
-                 BackgroundColor="#e8e8e8">
-
+                     BackgroundColor="#e8e8e8">
             <StackLayout Orientation="Vertical">
-
-                <!-- 
-             This StackLayout you can use for other
-             data that you want to have in your menu drawer
-        -->
-                <!--<StackLayout.Children >
-                    <Label Text="{Binding Header}" />
-
-                    <Image Source="{Binding Image}" Aspect="Fill" />
-
-                    <Label Text="{Binding Footer}" />
-                </StackLayout.Children>
--->
+                <!-- Menu specifications -->
                 <ListView x:Name="navigationDrawerList"
-                  RowHeight="55"
-                  SeparatorVisibility="Default"
-                  BackgroundColor="#e8e8e8"
-                  ItemSelected="OnMenuItemSelected">
-
+                      RowHeight="55"
+                      SeparatorVisibility="Default"
+                      BackgroundColor="#e8e8e8"
+                      ItemSelected="OnMenuItemSelected">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
 
                                 <!-- Main design for our menu items -->
                                 <StackLayout VerticalOptions="FillAndExpand"
-                             Orientation="Horizontal"
-                             Padding="20,10,0,10"
-                             Spacing="20">
+                                     Orientation="Horizontal"
+                                     Padding="20,10,0,10"
+                                     Spacing="20">
 
                                     <Image Source="{Binding Icon}"
-                         WidthRequest="40"
-                         HeightRequest="40"
-                         VerticalOptions="Start" />
+                                         WidthRequest="40"
+                                         HeightRequest="40"
+                                         VerticalOptions="Start" />
 
                                     <Label Text="{Binding Title}"
-                             FontSize="Small"
-                             VerticalOptions="End"
-                             TextColor="Black"/>        
+                                         FontSize="Small"
+                                         VerticalOptions="End"
+                                         TextColor="Black"/>        
                                 </StackLayout>
                             </ViewCell>
                         </DataTemplate>
