@@ -27,7 +27,7 @@ namespace Broke_v01.Pages
             List<string> mylist = new List<string>(new string[] { "Stop spending money you don't have", "Have a savings plan", "Have a will" , "Don't be a dumbass", "Make your meals at home", "Stick to a budget", "Pay off your credit card debt", "Have a savings plan","Have a savings plan", "Have a no spend day"});
             await DisplayAlert("Here's a Tip", $" {mylist[randomTip()]}", "okay");
         }
-        public int randomTip()
+        public int RandomTip()
         {
             Random random = new Random();
             int num = random.Next(10);
