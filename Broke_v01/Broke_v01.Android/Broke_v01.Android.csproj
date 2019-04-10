@@ -15,7 +15,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
     <NuGetPackageImportStamp>
@@ -93,7 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Broke_v01\Broke_v01.csproj">
-      <Project>{2802B8EC-C3F1-4EBB-9ABE-25C26FA90B33}</Project>
+      <Project>{A2FCDDD9-FD0A-4533-AFEC-E47D93F808DF}</Project>
       <Name>Broke_v01</Name>
     </ProjectReference>
   </ItemGroup>
