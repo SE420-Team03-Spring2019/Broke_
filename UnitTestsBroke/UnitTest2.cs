@@ -1,17 +1,14 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-
 namespace UnitTestsBroke
 {
     [TestClass]
-    public class AppInitializer
-    { 
-
+    public class UnitTest2
+    {
         [TestMethod]
-        public void TestMenu()
+        public void TestMethod1()
         {
-
         }
     }
 }

@@ -1,7 +1,10 @@
-﻿/**********************************************************************/
-/* This file sets up the Main Page of the App                         */
-/* This file will also decribe what the App will do on the following: */
-/*      App Start Up, Sleep, and Resume                               */
+﻿/**********************************************************************
+ * App.xaml.cs                                                        *              
+ * by Reagan Sensmeier                                                *                                          
+ *                                                                    *                          
+ * This file sets up the Main Page of the App                         *
+ * This file will also decribe what the App will do on the following: *
+ *      App Start Up, Sleep, and Resume                               *
 /**********************************************************************/
 using System;
 using Xamarin.Forms;

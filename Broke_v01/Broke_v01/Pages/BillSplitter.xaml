@@ -1,12 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Create the page -->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Broke_v01.Pages.BillSplitter">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Bill Splitter!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+
+    <!-- Layout where objects are stacked ontop of each other -->
+    <StackLayout>
+
+        <Label Text="Bill Splitter"
+               HorizontalTextAlignment="Center"/>
+
+        <Entry Placeholder="Cost of Bill" 
+               x:Name="InputBillCost"
+               IsVisible="true"/>
+
+        <Label Text="" 
+               x:Name="ErrorBill"
+               IsVisible="true"
+               TextColor="Red"
+               FontSize="10"/>
+
+        <Entry Placeholder="Number of People" 
+               x:Name="InputNumPeople"
+               IsVisible="true"/>
+
+        <Label Text="" 
+               x:Name="ErrorPeople"
+               IsVisible="true"
+               TextColor="Red"
+               FontSize="10"/>
+
+        <Label Text="Tip Percentage:" />
+
+        <Slider Minimum="0" 
+                Maximum="100" 
+                x:Name="Slider"
+                ValueChanged="SliderValueChanged"
+                MaximumTrackColor="Gray"
+                MinimumTrackColor="BlueViolet"
+                ThumbColor="Black"/>
+
+        <Label Text="0" 
+               x:Name="SliderLabel"/>
+
+        <Button Text="Calculate" 
+                x:Name="CalculateButton"
+                Clicked="CalculateButtonClicked"/>
+
+        <Label Text="" 
+               x:Name="IntroForValue"
+               IsVisible="true"/>
+
+        <Label Text="" 
+               x:Name="OutputAmountOwed"
+                IsVisible="true"/>
+
+    </StackLayout>
+
 </ContentPage>
+    

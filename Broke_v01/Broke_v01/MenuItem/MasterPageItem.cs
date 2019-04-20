@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*********************************************************************************
+ * MasterPageItem.cs                                                             *           
+ * by Reagan Sensmeier                                                           *                           
+ *                                                                               *       
+ * Menu Page Class Definition                                                    *
+/*********************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
